@@ -1,1 +1,0 @@
-# Stellarsat-1
