@@ -15,6 +15,12 @@ chmod +x install.sh
 
 La ip de la PlutoSDR debería ser 192.168.2.1, de no ser así, cambiarlo en el archivo .py
 
+## Uso
+
+Para utilizar el programa BoiraS: python3 BoiraS.py
+Para utilizar la herramienta de espectrograma: python3 spectrogram.py
+
+
 ## Comandos
 
 ###PAYLOAD
