@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+scipy
+reedsolo
+customtkinter
+scikit-dsp-comm
+pylibiio==0.23.1
+pyadi-iio==0.0.14
