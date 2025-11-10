@@ -20,3 +20,6 @@ Thumbs.db
 # Git
 *.swp
 *.swo
+
+# Dev container
+.devcontainer/
