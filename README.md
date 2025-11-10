@@ -1,0 +1,3 @@
+Diseño e implementación de un sistema de telecomunicaciones bidireccional entre una estación base en tierra y un cubesat, centrado en la viabilidad de establecer un enlace real tanto de telemetrías como de telecomandos.
+En esta primera revisión se han utilizado transceptores sx1278 para la comunicación satelital y una PlutoSDR para la comunicación en tierra. Boiras es un software en python con el cual poder comunicarse con el satélite desde una SDR. 
+Dentro de ESP se encuentra el firmware para controlar el transceptor que pueda ser utilizado por el equipo de ST3LLAR para el satélite ST3LLAR SAT-1 BOIRA.
