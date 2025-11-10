@@ -1,16 +1,21 @@
 | Supported Targets | ESP32-S3 |
 | ----------------- | -------- |
 
-Starts a FreeRTOS task to print "Hello World".
+# StellarSat-1 Boira
 
+Código para ESP32 para el sistema de telemetría y telecomandos para el satélite StellarSat-1 boira desarrollado para Trabajo de Fin de Grado de Adrián Blanco de Paz. Atención: Esta es una primera revisión incompleta. Su funcionamiento consta de un mensaje de housekeeping, enviado por defecto cada 7 segundos. También está implementada la gestión de telecomandos así como de telecomandos prioritarios.
 
-# Firmware - ESP32 StellarSat-1 Boira (VSCode + ESP-IDF Extension) desarrollado para Trabajo de Fin de Grado de Adrián Blanco de Paz
+## Hardware
+
+Este proyecto está desarrollado para un ESP32-S3 así como dos transceptores sx127X.
+
+# Firmware - ESP32 StellarSat-1 Boira (VSCode + ESP-IDF Extension) 
 
 Este proyecto está diseñado para el **ESP32** y se puede compilar y subir fácilmente usando **Visual Studio Code** junto con la **extensión ESP-IDF**. No es necesario instalar ESP-IDF manualmente; la extensión se encarga de instalar todas las herramientas necesarias.
 
 ---
 
-## ✅ Requisitos
+## Requisitos
 
 1. **Visual Studio Code**  
 2. **Extensión ESP-IDF para VSCode**  
@@ -21,7 +26,7 @@ Este proyecto está diseñado para el **ESP32** y se puede compilar y subir fác
 
 ---
 
-## 📥 Clonar el proyecto
+## Clonar el proyecto
 
 ```bash
 git clone https://github.com/TU_USUARIO/TU_REPO.git
