@@ -1,0 +1,22 @@
+# ESP-IDF build files
+/build/
+sdkconfig.old
+*.bin
+*.elf
+*.map
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
+*.swo

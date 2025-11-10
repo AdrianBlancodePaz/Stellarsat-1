@@ -1,0 +1,117 @@
+#ifndef LORA_H
+#define LORA_H
+
+#define PA_OUTPUT_RFO_PIN          0b0
+#define PA_OUTPUT_PA_BOOST_PIN     0b1
+
+#define BITRATE_MSB_1 0x68  //1.2kbps
+#define BITRATE_LSB_1 0x2B
+#define BITRATE_MSB_2 0x34  //2.4kbps
+#define BITRATE_LSB_2 0x15
+#define BITRATE_MSB_3 0x1A  //4.8kbps
+#define BITRATE_LSB_3 0x0B
+#define BITRATE_MSB_4 0x0D  //9.6kbps
+#define BITRATE_LSB_4 0x05
+#define BITRATE_MSB_5 0x06  //19.2kbps
+#define BITRATE_LSB_5 0x83
+#define BITRATE_MSB_6 0x03  //38.4kbps
+#define BITRATE_LSB_6 0x41
+#define BITRATE_MSB_7 0x01  //76.8kbps
+#define BITRATE_LSB_7 0xA1
+#define BITRATE_MSB_8 0x00  //153.6kbps
+#define BITRATE_LSB_8 0xD0
+
+#define RECOMMENDED_PREAMBLE 0b01
+
+#define SLEEP_MODE 0b00001000
+#define STBY_MODE 0b00001001
+#define FSTx_MODE 0b00001010
+#define TX_MODE 0b00001011
+#define FSRx_MODE 0b00001100
+#define RX_MODE 0b00001101
+
+#define CCITT_CRC 0b0
+#define IBM_CRC 0b1
+
+#define OPMODE 0b0
+#define FSK_MODU 0b00
+#define OOK_MODU 0b01
+#define HF_MODE 0b0
+#define LF_MODE 0b1
+
+#define REG_FIFO 0x00
+#define REG_OPMODE 0x01
+#define REG_BITRATE_MSB 0x02
+#define REG_BITRATE_LSB 0x03
+#define REG_FDEV_MSB 0x04   //FREQ DEVIATION
+#define REG_FDEV_LSB 0x05
+#define REG_FRF_MSB 0x06    //FREQ CARRIER
+#define REG_FRF_MID 0x07
+#define REG_FRF_LSB 0x08
+#define REG_PA_CONFIG 0x09
+#define REG_PA_RAMP 0x0A
+#define REG_OCP 0x0B
+#define REG_LNA 0x0C
+#define REG_RX_CONFIG 0x0D
+#define REG_RSSI_CONFIG 0x0E
+#define REG_RSSI_COLLISION 0x0F
+#define REG_RRS_THRESH 0x10
+#define REG_RSSI_VAUE 0x11
+#define REG_RX_BW 0x12
+#define REG_AFC_BW 0x13
+#define REG_OOK_PEAK 0x14
+#define REG_OOK_FIX 0x15
+#define REG_OOK_AVG 0x16
+#define REG_AFC_FEI 0x1A
+#define REG_AFC_MSB 0x1B
+#define REG_AFC_LSB 0x1C
+#define REG_FEI_MSB 0x1D
+#define REG_FEI_LSB 0x1E
+#define REG_PREAMBLE_DETECT 0x1F
+#define REG_RX_TIMEOUT_1 0x20
+#define REG_RX_TIMEOUT_2 0x21
+#define REG_RX_TIMEOUT_3 0x22
+#define REG_RX_DELAY 0x23
+#define REG_OSC 0x24
+#define REG_PREAMBLE_MSB 0x25
+#define REG_PREAMBLE_LSB 0x26
+#define REG_SYNC_CONFIG 0x27
+#define REG_SYNC_VALUE_1 0x28
+#define REG_SYNC_VALUE_2 0x29
+#define REG_SYNC_VALUE_3 0x2A
+#define REG_SYNC_VALUE_4 0x2B
+#define REG_SYNC_VALUE_5 0x2C
+#define REG_SYNC_VALUE_6 0x2D
+#define REG_SYNC_VALUE_7 0x2E
+#define REG_SYNC_VALUE_8 0x2F
+#define REG_PACKET_CONFIG_1 0x30
+#define REG_PACKET_CONFIG_2 0x31
+#define REG_PAYLOAD_LENGTH 0x32
+#define REG_NODE_ADRS 0x33
+#define REG_BROADCAST_ADRS 0x34
+#define REG_FIFO_THRESH 0x35
+#define REG_SEQ_CONFIG_1 0x36
+#define REG_SEQ_CONFIG_2 0x37
+#define REG_TIMER_RESOL 0x38
+#define REG_TIMER_1_COEF 0x39
+#define REG_TIMER_2_COEF 0x3A
+#define REG_IMAGE_CAL 0x3B
+#define REG_TEMP 0x3C
+#define REG_LOW_BAT 0x3D
+#define REG_IRQ_FLAGS_1 0x3E
+#define REG_IRQ_FLAGS_2 0x3F
+#define REG_DIO_MAPPING_1 0x40
+#define REG_DIO_MAPPING_2 0x41
+#define REG_VERSION 0x42
+#define REG_PII_HOP 0x44
+#define REG_TCXO 0x4B
+#define REG_PA_DAC 0x4D
+#define REG_FORMER_TEMP 0x5B
+#define REG_BIT_RATE_FRAC 0x5D
+#define REG_AGC_REF 0x61
+#define REG_AGC_THRESH_1 0x62
+#define REG_AGC_THRESH_2 0x63
+#define REG_AGC_THRESH_3 0x64
+#define REG_PLL 0x70
+
+#endif
