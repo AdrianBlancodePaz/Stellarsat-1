@@ -3,7 +3,9 @@
 
 # StellarSat-1 Boira
 
-Código para el sistema de telemetría y telecomandos del satélite StellarSat-1 boira desarrollado para Trabajo de Fin de Grado de Adrián Blanco de Paz. Atención: Esta es una primera revisión incompleta. Su funcionamiento consta de un mensaje de housekeeping, enviado por defecto cada 7 segundos. También está implementada la gestión de telecomandos así como de telecomandos prioritarios.
+Código para el sistema de telemetría y telecomandos del satélite StellarSat-1 boira desarrollado para Trabajo de Fin de Grado de Adrián Blanco de Paz. 
+
+Atención: Esta es una primera revisión incompleta. Su funcionamiento consta de un mensaje de housekeeping, enviado por defecto cada 7 segundos. También está implementada la gestión de telecomandos así como de telecomandos prioritarios.
 
 ## Hardware
 
